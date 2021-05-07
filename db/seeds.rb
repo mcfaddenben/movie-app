@@ -6,14 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-actor = Actor.new(({first_name: "Mark", last_name: "Whalberg", known_for: "Shooter"}))
-actor.save
-
-actor = Actor.new(({first_name: "Gemma", last_name: "Arterton", known_for: "Prince of Persia"}))
-actor.save
-
-actor = Actor.new(({first_name: "Harrison", last_name: "Ford", known_for: "Indianna Jones"}))
-actor.save
-
-actor = Actor.new(({first_name: "Tilde", last_name: "Swinton", known_for: "Dr. Strange"}))
-actor.save
+Movie.create(title: "Shooter", year: 2007, plot: "A retired sniper specialist is framed for an attempted assassination of the President.")
+Movie.create(title: "Deadpool", year: 2016, plot: "Follows the origin of one of the most unorthodox'superhero'in the Marvel universe.")
+Movie.create(title: "Wall-E", year: 2008, plot: "the adventures of a small robot.")
+Movie.create(title: "Hunt for Red October", year: 1990, plot: "A Soviet Submarine captain goes rogue and sends the world into  a scrample to locate the missing nuclear submarine.")
