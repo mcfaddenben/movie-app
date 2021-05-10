@@ -7,4 +7,9 @@ class MoviesController < ApplicationController
         movie = Movie.last
         render json: movie
     end
+    def movie_id
+        number = params[:id_number].to_i
+        movie = Movie.find_by(id: number)
+        render json: {output: movie.to_json}
+    end
 end
