@@ -10,6 +10,30 @@
 # Movie.create(title: "Deadpool", year: 2016, plot: "Follows the origin of one of the most unorthodox'superhero'in the Marvel universe.")
 # Movie.create(title: "Wall-E", year: 2008, plot: "the adventures of a small robot.")
 # Movie.create(title: "Hunt for Red October", year: 1990, plot: "A Soviet Submarine captain goes rogue and sends the world into  a scrample to locate the missing nuclear submarine.")
-Movie.create(title: "Prince of Persia", year: 2010, director: "Mike Newell", plot: "An adopted prince embarks on a journey to help clear his name after being framed, and aids a princess on her own quest at the same time.")
-Movie.create(title: "Raiders of the Lost Ark", year: 1981, director: "Steven Spielberg", plot: "An archaeology professor tracks down leads on the legendary Ark of the Covenant while racing against Nazi Germany.")
-Movie.create(title: "Dr. Strange", year: 2016, director: "Scott Derrickson", plot: "A legendary neural surgeon suffers a car accident that causes him to lose fine hand control. But he tracks down a long shot lead, that starts him on a completely different path to help save the world from dark powers.")
+# Movie.create(title: "Prince of Persia", year: 2010, director: "Mike Newell", plot: "An adopted prince embarks on a journey to help clear his name after being framed, and aids a princess on her own quest at the same time.")
+# Movie.create(title: "Raiders of the Lost Ark", year: 1981, director: "Steven Spielberg", plot: "An archaeology professor tracks down leads on the legendary Ark of the Covenant while racing against Nazi Germany.")
+# Movie.create(title: "Dr. Strange", year: 2016, director: "Scott Derrickson", plot: "A legendary neural surgeon suffers a car accident that causes him to lose fine hand control. But he tracks down a long shot lead, that starts him on a completely different path to help save the world from dark powers.")
+
+# Genre.create!([
+#     {name: "Adventure"},
+#     {name: "Horror"},
+#     {name: "Family"},
+#     {name: "Comedy"},
+#     {name: "Suspense"}
+
+# ])
+
+# MovieGenre.create!([
+#     {genre_id: 1, movie_id: 1},
+#     {genre_id: 1, movie_id: 4},
+#     {genre_id: 1, movie_id: 7},
+#     {genre_id: 1, movie_id: 8},
+#     {genre_id: 1, movie_id: 9},
+#     {genre_id: 2, movie_id: 6},
+#     {genre_id: 3, movie_id: 4},
+#     {genre_id: 4, movie_id: 3},
+#     {genre_id: 4, movie_id: 4},
+#     {genre_id: 4, movie_id: 6},
+#     {genre_id: 5, movie_id: 2},
+#     {genre_id: 5, movie_id: 5}
+# ])
